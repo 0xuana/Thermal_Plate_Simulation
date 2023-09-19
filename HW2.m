@@ -59,7 +59,7 @@ close(v);
 % v.FrameRate = 10; % Set frame rate. Adjust as needed.
 % open(v);
 % writeVideo(v, F);
-% close(v);
+close(v);
 
 % Analyze the plate
 [avgTemp, maxChangePoint] = analyzePlate(initialPlate, plate);
